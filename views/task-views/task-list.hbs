@@ -1,0 +1,9 @@
+<h1>Task List</h1>
+
+<div class="">
+{{#each tasks}}
+<div class="">
+  <a href="/task-details/{{this._id}}"> {{this.title}} : {{this.priority}} </a>
+</div>
+{{/each}}
+</div>
